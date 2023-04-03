@@ -1,16 +1,17 @@
 
 import { Routes, Route, HashRouter } from "react-router-dom";
-import AbouteTest from "./routes/AbouteTest";
+import Nav from './components/shared/Nav'
+import About from "./routes/About";
 import Pokedex from "./routes/Pokedex";
 
 function App() {
   return (
     <HashRouter>
+        <Nav/>
       <>
         <Routes>
-
           <Route exact path="/" element={<Pokedex />} />
-          <Route exact path="/AbouteTest" element={<AbouteTest />} />
+          <Route exact path="/About" element={<About />} />
         </Routes>
       </>
     </HashRouter>
