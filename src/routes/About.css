@@ -1,0 +1,11 @@
+.aboutContainer {
+    margin: auto;
+    height: 360px;
+    width: 600px ;
+    /*background-size: cover;*/
+    background-image: url('../components/img/Background.gif');
+}
+.textContainer{
+    color: #333333;
+    margin-top: 350px;
+}
